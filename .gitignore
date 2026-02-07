@@ -14,3 +14,7 @@ $RECYCLE.BIN/
 # Dependencies/build output
 node_modules/
 dist/
+
+# Localized image backups & reports
+assets/img/_backup_*/
+localize_images_report.json

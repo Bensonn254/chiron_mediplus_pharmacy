@@ -16,22 +16,7 @@
         }
     });
 
-    // Search Popup JS
-    $('.close-btn').on('click',function() {
-        $('.search-overlay').fadeOut();
-        $('.search-btn').show();
-        $('.close-btn').removeClass('active');
-    });
-    $('.search-btn').on('click',function() {
-        $(this).hide();
-        $('.search-overlay').fadeIn();
-        $('.close-btn').addClass('active');
-    });
-
-    // Others Option For Responsive JS
-	$(".side-nav-responsive .dot-menu").on("click", function(){
-		$(".side-nav-responsive .container .container").toggleClass("active");
-    });
+    
 
     // First Banner Slider JS
     $('.first-slider').owlCarousel({
